@@ -1,0 +1,177 @@
+.App {
+  /* text-align: center; */
+}
+@import '~antd/dist/antd.css';
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.blacktheme{
+  color: white;
+  background-color: #002140;
+}
+
+.whitetheme{
+  background-color: white;
+  color:black;
+
+}
+
+.dark-mode{
+background-color: rgb(0, 0, 0) !important; 
+color:white;
+
+}
+
+
+.charttwocss{
+  border: 2px solid #20dc40;
+  margin: 35px;
+}
+
+.piecss{
+
+  border: 2px solid #1ecd3c;
+}
+
+.searchcsss{
+
+  padding: 5px;
+    width: 60%;
+    background-color: transparent;
+    text-align: center;
+    margin-left: -22%;
+}
+
+.maincss{
+  background-color: #002140;
+    padding: 12px;
+}
+
+
+.ant-layout-footer{
+  background: #002140;
+}
+
+
+
+.breadcumb{
+  font-size: 22px;
+    margin-left: 2%;
+    font-weight: 700;
+}
+.avatar{
+  float: right;
+    border: 2px solid white;
+    font-size:15px;
+}
+
+.selectcss{
+    background-color: #72ffff8c;
+    border: 2px solid navajowhite;
+
+}
+.switch{
+  float:right;
+}
+
+.searchactivity{
+  font-size: 18px;
+    margin-left: 13px;
+}
+.Topactivity{
+  font-size: 18px;
+}
+
+.sortcss{
+  
+  margin-left: 34%;
+  font-size: 15px;
+}
+
+.Todaysvisitorcss{
+  font-size: 18px;
+}
+
+.dropdowncss{
+
+  margin-left: 9px;
+    border: 2px solid greenyellow;
+    padding: 1px;
+    color:black;
+    background-color: #fefeff;
+
+}
+
+.Topsearchone{
+  margin-left: 4%;
+
+}
+
+.margintop{
+  margin-top: 25px;
+}
+.visitorsrow
+{
+  background-color: #6060d8;
+border: 2px solid #20dc40;
+}
+
+.cardscss{
+  border: 2px solid #20dc40;
+    border-radius: 18px;
+    margin: 13px;
+    height: 503px;
+}
+
+
+.Activeuserscss{
+  color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.ant-statistic-title{
+  color:white; 
+}
+
+.ant-statistic-content{
+  color:white;
+}
+.Topsearchtwo{
+  
+
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
